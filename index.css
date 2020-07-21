@@ -1,0 +1,206 @@
+/* reset css */
+html, body, div, span, applet, object, iframe,  
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,  
+a, abbr, acronym, address, big, cite, code,  
+del, dfn, em, img, ins, kbd, q, s, samp,  
+small, strike, strong, sub, sup, tt, var,  
+b, u, i, center,  
+dl, dt, dd, ol, ul, li,  
+fieldset, form, label, legend,  
+table, caption, tbody, tfoot, thead, tr, th, td,  
+article, aside, canvas, details, embed,  
+figure, figcaption, footer, header, hgroup,  
+menu, nav, output, ruby, section, summary,  
+time, mark, audio, video {  
+margin: 0;  
+padding: 0;  
+border: 0;  
+font-size: 100%;  
+font: inherit;  
+vertical-align: baseline;  
+}
+/* HTML5 display-role reset */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+/* every element is a border-box */
+* {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+b {
+    font-weight: bold;
+}
+
+/* My code starts here */
+
+body {
+    font-family: 'Roboto Mono', monospace;
+    background-color: #b4adaa;
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+    padding: 5rem;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+header {
+    padding: 2rem;
+    width: 100%;
+}
+
+.mainContent {
+    background-color: white;
+}
+
+nav {
+    width: 100%;
+}
+
+.button1, .button2, .button3 {
+    margin-right: 2rem;
+    width: 8rem;
+    padding: .5rem;
+    border-radius: .5rem;
+    display: inline-block;
+    text-decoration: none;
+    color:white;
+}
+
+.button1 {
+    background-color: #FF764E;
+}
+
+.button1:hover {
+    background-color: #963012;
+    color: #FF764E;
+    animation-name: spin;
+    animation-duration: 5000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.button2 {
+    background-color: #5ED3EB;
+}
+
+.button2:hover {
+    background-color: #107c92;
+    color: #5ED3EB;
+    animation-name: spin;
+    animation-duration: 5000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.button3 {
+    background-color: #FFCD69;
+}
+
+.button3:hover {
+    background-color: #836a37;
+    color: #FFCD69;
+    animation-name: spin;
+    animation-duration: 5000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.content_1_div {
+    margin-top: 2rem;
+}
+
+.content_1_img img {
+    border-radius: 50%;
+    display: inline-block;
+    width: 12.9rem;
+    height: 12.9rem;
+}
+
+.content_1_img{
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+    display: inline-block;
+}
+
+.content_1_txt {
+    display: inline-block;
+    width: 50%;
+}
+
+p {
+    margin-top: 1rem;
+}
+
+h1 {
+    font-family: 'Chelsea Market', cursive;
+    vertical-align: top;
+    font-size: 2.5rem;
+}
+
+.infoBox_1 {
+    width: 95%;
+    margin: 0 auto;
+    padding: 1%;
+    background-color: #DDB9A3;
+    color: white;
+}
+
+.infoBox_2 {
+    width: 25%;
+    margin: 0 auto;
+    padding: 1%;
+}
+
+.infoBox_2 img {
+    width: 5rem;
+    height: 5rem;
+}
+
+.infoBox_2 p {
+    margin-bottom: 5rem;
+}
+
+footer img {
+    margin-bottom: 1rem;
+    width: 100%;
+    height: 21.8rem;
+    object-fit: cover;
+    object-position: top;
+}
+
+footer { 
+    padding-bottom: 1rem;
+    background-color: #F9E7DC;
+}
